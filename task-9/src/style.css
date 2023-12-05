@@ -1,0 +1,84 @@
+.bg-gray {
+  background: lightblue;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 5px;
+}
+
+.page-button {
+  padding: 10px 15px;
+  background: whitesmoke;
+  color: #0047ab;
+  border: 1px solid gray;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.page-button:first-child {
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.page-button:last-child {
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.button {
+  padding: 10px 15px;
+  background: whitesmoke;
+  color: #0047ab;
+  border: 1px solid gray;
+  border-radius: 10%;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.active {
+  background: #013885;
+  color: white;
+}
+
+#page-numbers {
+  margin: 20px;
+}
+
+h5 {
+  font-size: large;
+}
+
+table {
+  border: 1px solid gray;
+  padding: 10px;
+  background: ivory;
+}
+
+th {
+  border: 1px solid gray;
+  border-radius: 5%;
+  padding: 10px;
+  background: orange;
+}
+
+td {
+  border: 1px solid gray;
+  border-radius: 5%;
+  padding: 10px;
+  background: white;
+}

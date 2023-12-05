@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  </head>
+  <body>
+    <div class="container-flex main bg-gray">
+      <table class="table-custom">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody class="data-table-container"></tbody>
+      </table>
+    </div>
+    <div class="container-flex bg-gray">
+      <div id="page-numbers"></div>
+    </div>
+    <div class="container-flex bg-gray">
+      <div class="button-group">
+        <button class="button" onclick="changePage('first')">First</button>
+        <button class="button" onclick="changePage('prev')">Previous</button>
+        <div class="page-number-container"></div>
+        <button class="button" onclick="changePage('next')">Next</button>
+        <button class="button" onclick="changePage('last')">Last</button>
+      </div>
+    </div>
+  </body>
+</html>
